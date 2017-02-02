@@ -1,0 +1,103 @@
+@media screen and (max-width: 1024px) {
+footer p {
+	margin-bottom: 30px;
+}
+.header-fixed {
+	height: 70px;
+}
+.mobilemenu {
+	margin-top: 12px;
+}
+}
+@media screen and (max-width: 768px) {
+.slide-content {
+	padding-left: 55px;
+}
+.mobilemenu {
+	margin-top: 35px;
+}
+.menu-icon {
+	display: block;
+}
+.banner {
+	height: auto;
+	min-height: inherit;
+	padding-bottom: 30px;
+}
+.banner-content {
+	position: inherit;
+}
+.banner-img img {
+	position: absolute;
+	top: 151px;
+}
+.header-fixed {
+	display: none;
+}
+.logo {
+	position: inherit;
+	width: 150px;
+	height: 60px;
+	margin: 0 auto;
+}
+.logo img {
+	width: 70%;
+}
+.faq-img {
+	float: none;
+	width: 100%;
+	min-height: 300px;
+}
+.faq-content {
+	float: none;
+	width: 100%;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+.smk_accordion {
+	height: auto !important;
+	overflow: inherit !important;
+}
+.logo img {
+	width: inherit;
+}
+.hide-mobile {
+	display: none;
+}
+.how-works {
+	display: block;
+}
+.slider {
+	margin: 50px 0;
+}
+.slider h2 {
+	margin-bottom: 0px;
+}
+footer p a {
+	display: block;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+.banner-img {
+	width: 100%;
+}
+.banner-img img {
+	width: 70%;
+	position: inherit;
+	top: 30px;
+	margin: 0 auto;
+}
+.intro {
+	width: 100%;
+	text-align: center;
+}
+.welcome p {
+	text-align: center;
+}
+.welcome img {
+	margin: 40px auto;
+}
+.faq-content {
+	padding: 30px;
+}
+}
