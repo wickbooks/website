@@ -164,6 +164,7 @@
             <h4>Meet the owner and take the book</h4>
             <p>Have a smile and transfer your book.</p>
           </div>
+          <a href="http://www.wickapp.in/how-it-works">More about how we works.</a>
         </div>
       </div>
     </div>
@@ -197,6 +198,7 @@
               <p>Have a smile and transfer your book.</p>
             </div>
           </div>
+
         </div>
       </div>
     </div>
@@ -286,6 +288,20 @@
   </footer>
 </div>
 
+<!-- Shutdown message-->
+
+<a class="popup-with-form" id="show-shutdown-message" href="#shutdown-message"></a>
+<div id="shutdown-message" class="mfp-hide white-popup-block">
+      <h1>Good bye!!!</h1>
+      <p style="color: #000; font-weight: 200;">
+        Wickapp's story ends here. Many challenges in the world of books remain unsolved, and we failed to create a sustainable platform for reading and sharing books. For this, we’re deeply sorry.
+        <br><br>
+        Keep reading.
+        <br>
+        Wick Team
+      </p>   
+</div>
+
 <!-- General Scripts --> 
 
 <script src="js/jquery.min.js"></script> 
@@ -299,6 +315,11 @@
 <script src="js/wow.min.js"></script> 
 <script>
     new WOW().init();
+    $(document).ready(function(){
+     $('#shutdown-message').magnificPopup();
+     $('#show-shutdown-message').trigger('click')
+    })
+   
 </script>
 </body>
 </html>
